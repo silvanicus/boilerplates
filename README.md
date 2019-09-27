@@ -48,4 +48,5 @@ cd next
 
 ## **Notes**
 
-Please use the main .gitignore file as a reference for each project. Files being ignored depends on the tech stack, OS and code editor.
+- Please use the main .gitignore file as a reference for each project. Files being ignored depends on the tech stack, OS and code editor.
+- Each project folder could be named `src` and will include everything required for each
