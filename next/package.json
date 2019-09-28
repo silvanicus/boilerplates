@@ -9,18 +9,21 @@
     "lint": "eslint \"**/**/*.{js,jsx}\" --quiet",
     "start": "next start",
     "storybook": "start-storybook",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "^9.0.6",
+    "next": "^9.0.7",
     "react": "^16.10.0",
     "react-dom": "^16.10.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
     "@storybook/react": "^5.2.1",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",

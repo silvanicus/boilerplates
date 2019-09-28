@@ -1,11 +1,21 @@
-import List from '../components/List';
+import List from '../components/ui/List';
+import Header from '../components/layout/Header';
+import Footer from '../components/layout/Footer';
+
+/**
+ * Index page
+ * @function
+ */
 
 const Index = () => {
   const array = ['apples', 'oranges', 'bananas'];
   return (
     <div>
-      <List items={array} />
-      <p>This is the main app file.</p>
+      <Header />
+      <main>
+        <List items={array} />
+      </main>
+      <Footer />
     </div>
   );
 };
