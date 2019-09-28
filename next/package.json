@@ -7,7 +7,8 @@
     "dev": "next",
     "build": "next build",
     "lint": "eslint \"**/**/*.{js,jsx}\" --quiet",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -18,9 +19,12 @@
     "react-dom": "^16.10.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.6.2",
     "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
     "eslint": "^6.4.0",
     "eslint-config-prettier": "^6.3.0",
+    "jest": "^24.9.0",
     "prettier": "^1.18.2"
   }
 }

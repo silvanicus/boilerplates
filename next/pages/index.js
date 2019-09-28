@@ -1,6 +1,9 @@
+import Text from "../components/Text";
+
 const Index = () => (
   <div>
-    <p>Hello Next.js</p>
+    <Text />
+    <p>This is the main app file.</p>
   </div>
 );
 
