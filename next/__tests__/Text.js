@@ -1,6 +1,6 @@
 import Text from '../components/Text';
 
-test('Testiiing', () => {
+test('Testing the first div', () => {
   const a = document.createElement('div');
   console.log('Here', a, Text);
 });

@@ -1,3 +1,6 @@
-const Text = () => <h1>Hello, I'm a component</h1>;
+const Text = props => {
+  const number = props.number + 2;
+  return <h1>`The number is ${number}`</h1>;
+};
 
 export default Text;
