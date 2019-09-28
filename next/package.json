@@ -1,0 +1,30 @@
+{
+  "name": "next-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "lint": "eslint \"**/**/*.{js,jsx}\" --quiet",
+    "start": "next start",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.0.6",
+    "react": "^16.10.0",
+    "react-dom": "^16.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2"
+  }
+}

@@ -1,13 +1,14 @@
-# Project Title
+# Project Title - October 2019
 
-Repository small description
+Repository small description.
 
-> **Note:** This codebase is constantly being updated.
+> **Note:** This project uses Next framework
 
 ## **Table of Contents**
 
 1. [Tech Stack](#tech-stack)
-1. [Getting Started](#getting-Started)
+1. [Getting Started](#getting-started)
+1. [Format and eslint](#format-and-eslint)
 1. [Git](#git)
 1. [Deployment for production](#deployment-for-production)
 
@@ -37,7 +38,7 @@ _Node Installation_
 
 The project would be serve at [http://localhost:4000](http://localhost:4000/)
 
-``` bash
+```bash
 # install dependencies.
 $ npm i
 
@@ -45,21 +46,25 @@ $ npm i
 $ npm run dev
 ```
 
+## **Format and eslint**
+
+This project uses prettier for code formating and eslint for static code analysis. Please make sure you update the config files to adapt to the specific project rules. Also, please add extensions for better a better developer experience with prettier and eslint.
+
 ## **Git**
 
 ### _Git flow_
 
-Branch name | Description
------------- | -------------
-master | Production / Staging environment.
-qa | Testing environment.
-develop | Development environment.
+| Branch name | Description                       |
+| ----------- | --------------------------------- |
+| master      | Production / Staging environment. |
+| qa          | Testing environment.              |
+| develop     | Development environment.          |
 
-### _Naming Conventions_
+### _Naming Convention examples_
 
-When ever possible, relate _Ticket IDs_ with branches and commit messages:
+Please relate _Agile System Ticket IDs_ with branches and commit messages.
 
-``` bash
+```bash
 git checkout -d feature/<Ticket ID>branch-descriptive-title
 
 git commit -m "<Ticket ID> Header - Descriptive information about the edit"
@@ -67,7 +72,7 @@ git commit -m "<Ticket ID> Header - Descriptive information about the edit"
 
 Always add the type of edit you are doing to the branch name, ej: _feature, improvement, hotfix_
 
-``` bash
+```bash
 git checkout -d feature/<Ticket ID>branch-descriptive-title
 
 git checkout -d bugfix/<Ticket ID>branch-descriptive-title
@@ -75,7 +80,7 @@ git checkout -d bugfix/<Ticket ID>branch-descriptive-title
 
 If ticket is not required or available, please keep descriptive title and descriptive title
 
-``` bash
+```bash
 git checkout -d feature/<Ticket ID>branch-title
 
 git checkout -d hotfix/descriptive-title
@@ -83,15 +88,4 @@ git checkout -d hotfix/descriptive-title
 
 ### **Deployment for Production**
 
-For further documentation on deployment, please visit < link here >
-
-``` bash
-# Install project dependencies.
-$ npm i
-
-# Build App
-$ NODE_ENV=<environmentConfig> npm build
-
-# Run App
-$ npm run <environmentConfig>
-```
+Add all the information related to the Deployment here.
