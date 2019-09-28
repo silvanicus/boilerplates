@@ -52,6 +52,8 @@ This project uses prettier for code formating and eslint for static code analysi
 
 ## **Git**
 
+This project uses git flow strategy and husky for git hooks.
+
 ### _Git flow_
 
 | Branch name | Description                       |

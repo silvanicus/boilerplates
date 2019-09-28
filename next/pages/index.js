@@ -1,10 +1,13 @@
-import Text from "../components/Text";
+import List from '../components/List';
 
-const Index = () => (
-  <div>
-    <Text />
-    <p>This is the main app file.</p>
-  </div>
-);
+const Index = () => {
+  const array = ['apples', 'oranges', 'bananas'];
+  return (
+    <div>
+      <List items={array} />
+      <p>This is the main app file.</p>
+    </div>
+  );
+};
 
 export default Index;
