@@ -11,6 +11,7 @@ Repository small description.
 1. [Format and eslint](#format-and-eslint)
 1. [Git](#git)
 1. [Deployment for production](#deployment-for-production)
+1. [Component Documentation](#component-documentation)
 
 ## **Tech Stack**
 
@@ -91,3 +92,11 @@ git checkout -d hotfix/descriptive-title
 ### **Deployment for Production**
 
 Add all the information related to the Deployment here.
+
+### **Component Documentation**
+
+All the component documentation is build using storybook.
+
+```
+npm run storybook
+```
